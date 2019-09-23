@@ -2,64 +2,77 @@
 <html lang="en">
   <head>
     <title>The Avengers</title>
-    <meta name="description" content="American superhero film based on the Marvel Comics"/>
+    <meta
+      name="description"
+      content="American superhero film based on the Marvel Comics"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="nav main-nav">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="store.html">STORE</a></li>
           <li><a href="about.html">ABOUT</a></li>
         </ul>
       </nav>
-      <hr />
-      <h1>The Avengers</h1>
-      <button>Get the latest movies</button>
-      <br><br>
-      <!-- TODO: Find a suitable background image -->
-      <button>&#9658;</button>
+      <h1 class="movie-name">The Avengers</h1>
+      <button class="btn btn-header">Get the latest movies</button>
     </header>
     <main>
-        <section>
-            <h2>Movies</h2>
-            <div>
-                <div>
-                    <strong>11 April 2012</strong>
-                    <span>The Avengers</span>
-                    <button>BUY TICKETS</button>
-                    <hr>
-                </div>
-                <div>
-                    <strong>24 April 2015</strong>
-                    <span>Avengers: Age of Ultron</span>
-                    <button>BUY TICKETS</button>
-                    <hr>
-                </div>
-                <div>
-                    <strong>27 April 2018</strong>
-                    <span>Avengers: Infinity War</span>
-                    <button>BUY TICKETS</button>
-                    <hr>
-                </div>
-                <div>
-                    <strong>26 April 2019</strong>
-                    <span>Avengers: Endgame</span>
-                    <button>BUY TICKETS</button>
-                </div>
-            </div>
-        </section>
+      <section class="content-section">
+        <h2>Movies</h2>
+        <div>
+          <div class="movie-row">
+            <strong class="movie-item movie-date">11 April 2012</strong>
+            <span class="movie-item movie-title">The Avengers</span>
+            <button class="movie-item movie-button">BUY TICKETS</button>
+          </div>
+          <div class="movie-row">
+            <strong class="movie-item movie-date">24 April 2015</strong>
+            <span class="movie-item movie-title">Avengers: Age of Ultron</span>
+            <button class="movie-item movie-button">BUY TICKETS</button>
+          </div>
+          <div class="movie-row">
+            <strong class="movie-item movie-date">27 April 2018</strong>
+            <span class="movie-item movie-title">Avengers: Infinity War</span>
+            <button class="movie-item movie-button">BUY TICKETS</button>
+          </div>
+          <div class="movie-row">
+            <strong class="movie-item movie-date">26 April 2019</strong>
+            <span class="movie-item movie-title">Avengers: Endgame</span>
+            <button class="movie-item movie-button">BUY TICKETS</button>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="main-footer">
-        <p class="credit">Contents and Pictures taken from <a href="https://www.wikipedia.org">wikipedia</a> and <a href="https://pixabay.com">pixabay</a></p>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
-        </ul>
+      <p class="credit">
+        Reference <a href="https://www.marvel.com">marvel</a> comics. Contents
+        and Pictures taken from
+        <a href="https://www.wikipedia.org">wikipedia</a> and
+        <a href="https://pixabay.com">pixabay</a> respectively.
+      </p>
+      <ul>
+        <li>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fa fa-facebook-official"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fa fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="fa fa-youtube-square"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

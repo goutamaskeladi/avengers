@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Metal+Mania&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 @font-face {
@@ -19,23 +21,25 @@
 
 body {
    font-family: 'Roboto', sans-serif;
+   background-color: #EC1D24;
 }
 
-.about-header {
-    background: url('images/avenger-header.jpg') no-repeat center center fixed;
+.main-header {
+    background: url('images/avengers.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 50vh;
 }
 
-.about-header h1 {
+.main-header h1 {
     color: #fff;
     padding: 2rem 0;
     text-align: center;
 }
 
-.about-header a {
+.main-header a {
     color: #fff;
 }
 
@@ -63,18 +67,18 @@ body {
     font-size: 4rem;
 }
 
-.about-section {
+.content-section {
     margin: 1rem;
 }
 
-.about-section h2 {
+.content-section h2 {
     text-align: center;
     margin: 1rem 0;
     font-size: 3rem;
     font-family: 'Metal Mania', cursive;
 }
 
-.about-section p {
+.content-section p {
     margin: 2rem 0;
     text-align: justify;
 }
@@ -103,7 +107,7 @@ body {
 
 .main-footer ul li {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 .main-footer ul li a i {
@@ -120,5 +124,61 @@ body {
 
 .main-footer i.fa.fa-youtube-square {
     color: #c4302b;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5em;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-header {
+    margin: 2rem auto;
+    display: block;
+    color: #fff;
+    border: 2px solid #2D9CDB;
+    background: transparent;
+    padding: 0.5rem;
+    font-size: 15px;
+}
+
+.btn-header:hover {
+    background: rgba(45, 155, 219, 0.479);
+}
+
+.movie-row {
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    text-align: center;
+    -moz-box-shadow: 3px 3px 5px 6px #7a4534;
+    -webkit-box-shadow: 3px 3px 5px 6px #7a4534;
+    box-shadow: 3px 3px 5px 6px #7a4534;
+}
+
+.movie-row:last-child {
+    margin-bottom: 4rem;
+}
+
+.movie-item {
+    margin: 0 0.2rem;
+}
+
+.movie-date {
+    font-weight: 600;
+}
+
+.movie-title {
+    font-family: 'Lobster', cursive;
+}
+
+.movie-button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: #fff;
+    background-color: #9E9E9E;
+    font-size: 10px;
+    cursor: pointer;
 }
 

@@ -8,70 +8,82 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="nav main-nav">
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="store.html">STORE</a></li>
-            <li><a href="about.html">ABOUT</a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
         </ul>
       </nav>
-      <hr />
-      <h1>The Avengers</h1>
+      <h1 class="movie-name">The Avengers</h1>
+      <button class="btn btn-header">Get the latest movies</button>
     </header>
     <main>
-      <section>
-        <h2>HEROS</h2>
-        <div>
-          <div>
+      <section class="content-section">
+        <h2>Allies</h2>
+        <div class="store-items">
+          <div class="shop-item">
             <strong>Iron Man</strong>
+            <img
+              src="images/avenger-ironman.jpg"
+              alt="Iron Man"
+              class="shop-item-image"
+            />
+            <div class="shop-item-payment">
+              <span>$15.00</span>
+              <button>Buy</button>
+            </div>
           </div>
-          <img src="images/avenger-ironman.jpg" alt="Iron Man" />
-          <div>
-            <span>$15.00</span>
-            <button>Add Cart</button>
-          </div>
-        </div>
-        <div>
-          <div>
+          <div class="shop-item">
             <strong>Hulk</strong>
-          </div>
-          <img src="images/avenger-hulk.jpg" alt="Hulk" />
-          <div>
-            <span>$12.00</span>
-            <button>Add Cart</button>
+            <img
+              src="images/avenger-hulk.jpg"
+              alt="Hulk"
+              class="shop-item-image"
+            />
+            <div class="shop-item-payment">
+              <span>$12.00</span>
+              <button>Buy</button>
+            </div>
           </div>
         </div>
       </section>
 
-      <section>
-        <h2>VILLIANS</h2>
-        <div>
-          <div>
+      <section class="content-section">
+        <h2>Enemies</h2>
+        <div class="store-items">
+          <div class="shop-item">
             <strong>Thanos</strong>
+            <img
+              src="images/avenger-thanos.jpg"
+              alt="Thanos"
+              class="shop-item-image"
+            />
+            <div class="shop-item-payment">
+              <span>$14.00</span>
+              <button>Buy</button>
+            </div>
           </div>
-          <img src="images/avenger-thanos.jpg" alt="Thanos" />
-          <div>
-            <span>$14.00</span>
-            <button>Add Cart</button>
-          </div>
-        </div>
-        <div>
-          <div>
+          <div class="shop-item">
             <strong>Nebula</strong>
-          </div>
-          <img src="images/avenger-nebula.jpg" alt="Nebula" />
-          <div>
-            <span>$10.00</span>
-            <button>Add Cart</button>
+            <img
+              src="images/avenger-nebula.jpg"
+              alt="Nebula"
+              class="shop-item-image"
+            />
+            <div class="shop-item-payment">
+              <span>$10.00</span>
+              <button>Buy</button>
+            </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <!-- <section class="content-section">
         <h2>CART</h2>
         <div>
           <strong>ITEM</strong>
@@ -110,15 +122,33 @@
         <div>
           <button>Purchase</button>
         </div>
-      </section>
+      </section> -->
+
     </main>
     <footer class="main-footer">
-        <p class="credit">Reference <a href="https://www.marvel.com">marvel</a> comics. Contents and Pictures taken from <a href="https://www.wikipedia.org">wikipedia</a> and <a href="https://pixabay.com">pixabay</a> respectively.</p>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
-        </ul>
+      <p class="credit">
+        Reference <a href="https://www.marvel.com">marvel</a> comics. Contents
+        and Pictures taken from
+        <a href="https://www.wikipedia.org">wikipedia</a> and
+        <a href="https://pixabay.com">pixabay</a> respectively.
+      </p>
+      <ul>
+        <li>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fa fa-facebook-official"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fa fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="fa fa-youtube-square"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

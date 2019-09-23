@@ -182,3 +182,47 @@ body {
     cursor: pointer;
 }
 
+.store-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop-item {
+    margin: 1rem;
+}
+
+.shop-item strong {
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    margin: 0.2rem 0;
+    text-align: center;
+}
+
+.shop-item-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 4%;
+}
+
+.shop-item-payment {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.shop-item-payment span {
+    flex: 1;
+    font-weight: 600;
+}
+
+.shop-item-payment button {
+    flex: 2;
+    padding: 0.2rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #9E9E9E;
+    margin: 0 1rem;
+}
+

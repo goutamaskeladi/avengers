@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("fonts/BOOTERFZ.ttf");
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #000;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.about-header {
+    background: url('images/avenger-header.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about-header h1 {
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about-header a {
+    color: #fff;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: rgba(211, 211, 211, 0.226);
+}
+
+.nav.main-nav {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.movie-name {
+    font-family: "Booter - Zero Zero", cursive;
+    font-size: 4rem;
+}
+
+.about-section {
+    margin: 1rem;
+}
+
+.about-section h2 {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-family: 'Metal Mania', cursive;
+}
+
+.about-section p {
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+.main-footer ul {
+    flex: 1;
+    list-style-type: none;
+    text-align: end;
+}
+
+.main-footer p {
+    flex: 1;
+}
+
+.main-footer ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.main-footer ul li a i {
+    font-size: 2rem;
+}
+
+.main-footer i.fa.fa-facebook-official {
+    color :#3b5998;
+}
+
+.main-footer i.fa.fa-twitter-square {
+    color: #38A1F3;
+}
+
+.main-footer i.fa.fa-youtube-square {
+    color: #c4302b;
+}
+

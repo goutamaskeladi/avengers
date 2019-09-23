@@ -155,6 +155,7 @@ body {
     -moz-box-shadow: 3px 3px 5px 6px #7a4534;
     -webkit-box-shadow: 3px 3px 5px 6px #7a4534;
     box-shadow: 3px 3px 5px 6px #7a4534;
+    cursor: pointer;
 }
 
 .movie-row:last-child {
